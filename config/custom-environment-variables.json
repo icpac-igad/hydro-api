@@ -1,0 +1,5 @@
+{
+    "redis": {
+        "url": "REDIS_URL"
+    }
+}

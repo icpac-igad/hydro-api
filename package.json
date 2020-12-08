@@ -1,0 +1,31 @@
+{
+    "name": "flow-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Erick Otenyo",
+    "license": "MIT",
+    "scripts": {
+        "start": "NODE_PATH=app/src node app/index.js",
+        "dev": "NODE_PATH=app/src nodemon app/index.js"
+    },
+    "dependencies": {
+        "@koa/cors": "^3.1.0",
+        "bluebird": "^3.7.2",
+        "bunyan": "^1.8.14",
+        "config": "^3.3.3",
+        "dbgeo": "^1.1.0",
+        "dotenv": "^8.2.0",
+        "koa": "^2.13.0",
+        "koa-bodyparser": "^4.3.0",
+        "koa-logger": "^3.2.1",
+        "koa-mount": "^4.0.0",
+        "koa-router": "^10.0.0",
+        "koa-simple-healthcheck": "^0.0.1",
+        "pg": "^8.5.1",
+        "pg-promise": "^10.8.1",
+        "redis": "^3.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}

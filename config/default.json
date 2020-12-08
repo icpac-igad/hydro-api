@@ -1,0 +1,8 @@
+{
+    "logger": {
+        "name": "flow-api",
+        "level": "info",
+        "toFile": false,
+        "dirLogFile": null
+    }
+}
