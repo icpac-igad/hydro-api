@@ -1,8 +1,11 @@
 {
-    "name": "flow-api",
+    "name": "hyrdo-api",
     "version": "1.0.0",
     "main": "index.js",
-    "author": "Erick Otenyo",
+    "author": {
+        "name": "Erick Otenyo",
+        "email": "eotenyo@icpac.net"
+    },
     "license": "MIT",
     "scripts": {
         "start": "NODE_PATH=app/src node app/index.js",
